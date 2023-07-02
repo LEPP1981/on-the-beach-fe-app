@@ -1,0 +1,83 @@
+{
+    "bundles": [{
+            "hotelName": "Grand Hotel Mediterraneo",
+            "hotelLocation": {
+                "region": "Tuscany",
+                "city": "Florence"
+            },
+            "rating": 4,
+            "adults": 2,
+            "children": 1,
+            "infants": 0,
+            "arrivalDate": "2023-08-10",
+            "nights": 7,
+            "departureLocation": "London",
+            "totalPrice": 950,
+            "featureImage": ""
+        },
+        {
+            "hotelName": "Hotel Riu Palace Tres Islas",
+            "hotelLocation": {
+                "region": "Fuerteventura",
+                "city": "Corralejo"
+            },
+            "rating": 5,
+            "adults": 2,
+            "children": 0,
+            "infants": 0,
+            "arrivalDate": "2023-09-05",
+            "nights": 10,
+            "departureLocation": "Berlin",
+            "totalPrice": 1400,
+            "featureImage": ""
+        },
+        {
+            "hotelName": "Mandarin Oriental Barcelona",
+            "hotelLocation": {
+                "region": "Catalonia",
+                "city": "Barcelona"
+            },
+            "rating": 5,
+            "adults": 1,
+            "children": 0,
+            "infants": 0,
+            "arrivalDate": "2023-08-20",
+            "nights": 5,
+            "departureLocation": "Paris",
+            "totalPrice": 1250,
+            "featureImage": ""
+        },
+        {
+            "hotelName": "Hilton Malta",
+            "hotelLocation": {
+                "region": "Malta",
+                "city": "St. Julian's"
+            },
+            "rating": 4,
+            "adults": 2,
+            "children": 2,
+            "infants": 1,
+            "arrivalDate": "2023-07-30",
+            "nights": 14,
+            "departureLocation": "Madrid",
+            "totalPrice": 2800,
+            "featureImage": ""
+        },
+        {
+            "hotelName": "Hotel Cap Estel",
+            "hotelLocation": {
+                "region": "French Riviera",
+                "city": "Èze"
+            },
+            "rating": 5,
+            "adults": 2,
+            "children": 0,
+            "infants": 0,
+            "arrivalDate": "2023-09-15",
+            "nights": 7,
+            "departureLocation": "Amsterdam",
+            "totalPrice": 2100,
+            "featureImage": ""
+        }
+    ]
+}
