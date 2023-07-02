@@ -13,7 +13,8 @@
             "nights": 7,
             "departureLocation": "London",
             "totalPrice": 950,
-            "featureImage": ""
+            "featureImage": "",
+            "overview": "The 4-star Grand Hotel Mediterraneo in Firenze has a restaurant and a bar. Plus, there's a mini-market, a reception, a car park and childcare. This accommodation comes with our 24/7 Online Service."
         },
         {
             "hotelName": "Hotel Riu Palace Tres Islas",
@@ -29,7 +30,8 @@
             "nights": 10,
             "departureLocation": "Berlin",
             "totalPrice": 1400,
-            "featureImage": ""
+            "featureImage": "",
+            "overview": "On Playa de Corralejo and overlooking the Atlantic Ocean, this relaxed hotel is 5 km from Acua Water Park and 16 km from Cueva Del Llano archaeological site."
         },
         {
             "hotelName": "Mandarin Oriental Barcelona",
@@ -45,7 +47,8 @@
             "nights": 5,
             "departureLocation": "Paris",
             "totalPrice": 1250,
-            "featureImage": ""
+            "featureImage": "",
+            "overview": "This upmarket hotel is a 2-minute walk from the Gaudí-designed Casa Batlló. The sophisticated rooms feature flat-screen TVs, Wi-Fi and iPod docks; some have private terraces or balconies."
         },
         {
             "hotelName": "Hilton Malta",
@@ -61,7 +64,8 @@
             "nights": 14,
             "departureLocation": "Madrid",
             "totalPrice": 2800,
-            "featureImage": ""
+            "featureImage": "",
+            "overview": "Nestled between the Mediterranean Sea and Portomaso Marina, this upscale hotel is 8 km from the 16th-century St. John's Co-Cathedral and 11 km from Malta International Airport."
         },
         {
             "hotelName": "Hotel Cap Estel",
@@ -77,7 +81,8 @@
             "nights": 7,
             "departureLocation": "Amsterdam",
             "totalPrice": 2100,
-            "featureImage": ""
+            "featureImage": "",
+            "overview": "In a landmark building built in 1899, this sophisticated seafront hotel is 8 km from the Monte Carlo Casino in Monaco and 7 km from Èze, a quaint hilltop village."
         }
     ]
 }
