@@ -23,7 +23,7 @@ const BundleCard = ({
 
   return (
     <div className="bundle-card">
-      <div className="bundle-details">
+      <div className="bundle-details" data-testid="bundle-card">
         <div className="bundle-image">
           <img src={featureImage} alt="Feature" />
         </div>
