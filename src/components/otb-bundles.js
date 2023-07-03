@@ -13,9 +13,12 @@ const BundleCard = ({
   departureLocation,
   totalPrice,
   featureImage,
-  overview,
+  overview
 }) => {
   const [showOverview, setShowOverview] = useState(false);
+
+  console.log("overview prop:", overview);
+  console.log("showOverview state:", showOverview);
 
   const handleToggleOverview = () => {
     setShowOverview(!showOverview);
