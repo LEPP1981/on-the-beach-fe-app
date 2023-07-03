@@ -8,7 +8,7 @@ const TravelBundles = () => {
   useEffect(() => {
     const fetchBundlesData = async () => {
       try {
-        const response = await fetch("/json/bundles.json");
+        const response = await fetch("../json/bundles.json");
         if (!response.ok) {
           throw new Error("Failed to fetch bundle data.");
         }
@@ -23,8 +23,8 @@ const TravelBundles = () => {
   }, []);
 
   // Function to handle sorting option change
-  const handleSortChange = (event) => {
-    setSortOption(event.target.value);
+  const handleSortOptionChange = (option) => {
+    setSortOption(option);
   };
 
   // Function to sort bundles based on the selected sort option
@@ -32,9 +32,7 @@ const TravelBundles = () => {
     if (sortOption === "price") {
       return bundles.sort((a, b) => a.totalPrice - b.totalPrice);
     } else if (sortOption === "alphabetically") {
-      return bundles.sort((a, b) =>
-        a.hotelName.localeCompare(b.hotelName)
-      );
+      return bundles.sort((a, b) => a.hotelName.localeCompare(b.hotelName));
     } else if (sortOption === "rating") {
       return bundles.sort((a, b) => b.rating - a.rating);
     }
@@ -52,14 +50,27 @@ const TravelBundles = () => {
   return (
     <div id="main-container">
       <div className="sort-options">
-        <label>
-          Sort by:
-          <select value={sortOption} onChange={handleSortChange}>
-            <option value="price">Price</option>
-            <option value="alphabetically">Alphabetically</option>
-            <option value="rating">Rating</option>
-          </select>
-        </label>
+        <div
+          className={`sort-option ${sortOption === "price" ? "active" : ""}`}
+          onClick={() => handleSortOptionChange("price")}
+        >
+          Sort by Price
+          <i className="fa fa-tags"></i>
+        </div>
+        <div
+          className={`sort-option ${sortOption === "alphabetically" ? "active" : ""}`}
+          onClick={() => handleSortOptionChange("alphabetically")}
+        >
+          Sort Alphabetically
+          <i className="fa fa-font"></i>
+        </div>
+        <div
+          className={`sort-option ${sortOption === "rating" ? "active" : ""}`}
+          onClick={() => handleSortOptionChange("rating")}
+        >
+          Sort by Star Rating
+          <i className="fa fa-star"></i>
+        </div>
       </div>
       <div className="bundle-list">{renderBundles()}</div>
     </div>

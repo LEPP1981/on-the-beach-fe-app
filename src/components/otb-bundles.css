@@ -131,6 +131,29 @@ p.location {
     color: #18327f;
 }
 
+.sort-option {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 6px;
+    color: #18327f;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-weight: 600;
+    position: relative;
+}
+
+.sort-option:hover,
+.sort-option.active {
+    background-color: #18327f;
+    color: #fff;
+}
+
+.sort-option i {
+    position: absolute;
+    right: 20px;
+    font-size: 1.6em;
+}
+
 
 /* Font Awesome icons */
 
