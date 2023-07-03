@@ -1,5 +1,10 @@
 # On The Beach React App Demo
 
+1. Clone this repo into your local environment
+2. Run `npm test` to test the app's correct rendering on screen using Jest
+3. Run `npm start` to launch the local server
+4. Review the app and make an employment offer!
+
 ## Available Scripts
 
 In the project directory, you can run:
