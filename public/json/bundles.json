@@ -1,88 +1,54 @@
 {
     "bundles": [{
-            "hotelName": "Grand Hotel Mediterraneo",
+            "hotelName": "Iberostar Grand Salome",
             "hotelLocation": {
-                "region": "Tuscany",
-                "city": "Florence"
+                "region": "Costa Adeje",
+                "city": "Tenerife"
+            },
+            "rating": 5,
+            "adults": 2,
+            "children": 2,
+            "infants": 1,
+            "arrivalDate": "3rd July 2019",
+            "nights": 7,
+            "departureLocation": "East Midlands",
+            "totalPrice": 1136.50,
+            "featureImage": "/img/hotel-image-1.png",
+            "overview": "Set on the Atlantic coast between Playa del Duque and Playa de Fañabé beaches, this luxury adults-only hotel is 5 km from the 27-hole Costa Adeje golf course and 19 km from Tenerife South Airport."
+        },
+        {
+            "hotelName": "Aguamarina Golf Hotel",
+            "hotelLocation": {
+                "region": "Costa Adeje",
+                "city": "Tenerife"
             },
             "rating": 4,
             "adults": 2,
             "children": 1,
             "infants": 0,
-            "arrivalDate": "2023-08-10",
+            "arrivalDate": "27th May 2019",
             "nights": 7,
-            "departureLocation": "London",
-            "totalPrice": 950,
-            "featureImage": "",
-            "overview": "The 4-star Grand Hotel Mediterraneo in Firenze has a restaurant and a bar. Plus, there's a mini-market, a reception, a car park and childcare. This accommodation comes with our 24/7 Online Service."
+            "departureLocation": "Liverpool",
+            "totalPrice": 696.80,
+            "featureImage": "/img/hotel-image-2.png",
+            "overview": "Overlooking the Atlantic Ocean, this relaxed hotel is a 7-minute walk from San Miguel Marina, and 1 km from Amarilla Golf and Country Club. It's 7 km from the Tenerife South Airport."
         },
         {
-            "hotelName": "Hotel Riu Palace Tres Islas",
+            "hotelName": "Las Piramides Resort",
             "hotelLocation": {
-                "region": "Fuerteventura",
-                "city": "Corralejo"
+                "region": "Costa Adeje",
+                "city": "Tenerife"
             },
-            "rating": 5,
-            "adults": 2,
-            "children": 0,
-            "infants": 0,
-            "arrivalDate": "2023-09-05",
-            "nights": 10,
-            "departureLocation": "Berlin",
-            "totalPrice": 1400,
-            "featureImage": "",
-            "overview": "On Playa de Corralejo and overlooking the Atlantic Ocean, this relaxed hotel is 5 km from Acua Water Park and 16 km from Cueva Del Llano archaeological site."
-        },
-        {
-            "hotelName": "Mandarin Oriental Barcelona",
-            "hotelLocation": {
-                "region": "Catalonia",
-                "city": "Barcelona"
-            },
-            "rating": 5,
-            "adults": 1,
-            "children": 0,
-            "infants": 0,
-            "arrivalDate": "2023-08-20",
-            "nights": 5,
-            "departureLocation": "Paris",
-            "totalPrice": 1250,
-            "featureImage": "",
-            "overview": "This upmarket hotel is a 2-minute walk from the Gaudí-designed Casa Batlló. The sophisticated rooms feature flat-screen TVs, Wi-Fi and iPod docks; some have private terraces or balconies."
-        },
-        {
-            "hotelName": "Hilton Malta",
-            "hotelLocation": {
-                "region": "Malta",
-                "city": "St. Julian's"
-            },
-            "rating": 4,
+            "rating": 3,
             "adults": 2,
             "children": 2,
-            "infants": 1,
-            "arrivalDate": "2023-07-30",
-            "nights": 14,
-            "departureLocation": "Madrid",
-            "totalPrice": 2800,
-            "featureImage": "",
-            "overview": "Nestled between the Mediterranean Sea and Portomaso Marina, this upscale hotel is 8 km from the 16th-century St. John's Co-Cathedral and 11 km from Malta International Airport."
-        },
-        {
-            "hotelName": "Hotel Cap Estel",
-            "hotelLocation": {
-                "region": "French Riviera",
-                "city": "Èze"
-            },
-            "rating": 5,
-            "adults": 2,
-            "children": 0,
             "infants": 0,
-            "arrivalDate": "2023-09-15",
+            "arrivalDate": "3rd July 2019",
             "nights": 7,
-            "departureLocation": "Amsterdam",
-            "totalPrice": 2100,
-            "featureImage": "",
-            "overview": "In a landmark building built in 1899, this sophisticated seafront hotel is 8 km from the Monte Carlo Casino in Monaco and 7 km from Èze, a quaint hilltop village."
+            "departureLocation": "Manchester",
+            "totalPrice": 499.99,
+            "featureImage": "/img/hotel-image-3.png",
+            "overview": "This unassuming all-inclusive resort is a 16-minute walk from the sandy Playa de Troya, 2 km from Siam Park and 7 km from Jungle Park."
         }
     ]
 }
