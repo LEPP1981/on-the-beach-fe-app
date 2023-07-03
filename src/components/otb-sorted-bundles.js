@@ -50,7 +50,7 @@ const TravelBundles = () => {
   };
 
   return (
-    <div>
+    <div id="main-container">
       <div className="sort-options">
         <label>
           Sort by:

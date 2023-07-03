@@ -1,3 +1,25 @@
+div#root {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+div#main-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sort-options {
+    width: calc(25% - 20px);
+}
+
+.bundle-list {
+    width: calc(75% - 20px);
+}
+
 .bundle-card {
     border: 1px solid #ccc;
     border-radius: 5px;
